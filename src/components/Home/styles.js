@@ -100,3 +100,56 @@ export const Avatar = styled.img`
     height: 50px;
     object-fit: fill;
 `
+
+/* ------ POST ---------- */
+// Post, Avatar, PostBody, PostDescription, Images, PostFooter 
+
+export const Post = styled.div`
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-start;
+
+    .post_avatar {
+        margin-top: 4px;
+    }
+`
+export const PostBody = styled.div`
+    padding-left: 10px;
+    width: 100%;
+    overflow: hidden;
+
+    > div span {
+        font-weight: 600;
+        font-size: 15px;
+        color: #5b7083;
+    }
+
+    .post_icon {
+        font-size: 14px !important;
+        color: var(--twitterColor) !important;
+    }
+    h3 {
+        padding: 0;
+        margin: 0;
+    }
+
+`
+export const PostDescription = styled.div`
+    margin-bottom: 10px;
+    > p {
+        margin: 0;
+        padding: 0;
+        color: #0f1419;
+        font-size: 16px;
+        line-height: 16.6875px;
+    }
+`
+export const Images = styled.img`
+    border-radius: 20px;
+    min-widht: 100%;
+    width: 100%;
+    min-height: 300px;
+`
+export const PostFooter = styled.div``

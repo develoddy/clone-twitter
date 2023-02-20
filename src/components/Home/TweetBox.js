@@ -1,9 +1,5 @@
 import React from 'react'
 import {Tweetbox, Form, Div, Avatar, DivBox} from './styles';
-//import HomeIcon from '@material-ui/icons/Home';
-//import AddPhotoAlternateIcon from '@material-ui/icons/AddPhotoAlternate';
-//import GifBoxIcon from '@material-ui/icons/GifBox';
-
 import AddPhotoAlternateIcon from '@material-ui/icons/AddPhotoAlternate';
 import GifBoxIcon from '@material-ui/icons/Gif';
 import {Button} from '@material-ui/core';
