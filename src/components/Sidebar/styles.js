@@ -22,7 +22,39 @@ export const Container = styled.div`
         height: 46px !important;
         padding: 0 30px !important;
         border-radius: 9999px !important;
+        margin-top: 20px;
     }
+
+    @media only screen and (max-width: 1280px) {
+        flex: 0.05;
+        min-width: 50px;
+
+        > Button {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 1004px) {
+        width: 40px;
+    }
+
+    @media only screen and (max-width: 500px) {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 999;
+        height: 50px;
+        background-color: #fff;
+        width: 100%;
+        padding: 0;
+
+        .twitter-logo {
+            display: none;
+        }
+    }
+    
 `
 
 export const SidebarIcon = styled.div`
@@ -51,4 +83,18 @@ export const SidebarIcon = styled.div`
     color: var(--twitterColor) !important;
     background-color: var(--Hover) !important;
    ` }
+
+   @media only screen and (max-width: 1280px) {
+        border-radius: 50%;
+
+        > h2 {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        color: #b8b8b8;
+        display: ${props => props.primary ? "none": "" };
+        color: ${props => props.active ? "var(--twitterColor)" : "" }
+    }
 `

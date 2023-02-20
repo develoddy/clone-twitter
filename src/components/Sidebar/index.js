@@ -23,10 +23,10 @@ export const Sidebar = () => {
         <IconOptions text="Explorar" Icon={SearchIcon} ></IconOptions>
         <IconOptions text="Notificaciones" Icon={NotificationsNoneIcon} ></IconOptions>
         <IconOptions text="Mensaje" Icon={MailOutlineIcon} ></IconOptions>
-        <IconOptions text="Marcadores" Icon={BookmarkBorderIcon} ></IconOptions>
-        <IconOptions text="Listas" Icon={ListAltIcon} ></IconOptions>
-        <IconOptions text="Perfil" Icon={PermIdentityIcon} ></IconOptions>
-        <IconOptions text="Más" Icon={MoreHorizIcon} ></IconOptions>
+        <IconOptions primary text="Marcadores" Icon={BookmarkBorderIcon} ></IconOptions>
+        <IconOptions primary text="Listas" Icon={ListAltIcon} ></IconOptions>
+        <IconOptions primary text="Perfil" Icon={PermIdentityIcon} ></IconOptions>
+        <IconOptions primary text="Más" Icon={MoreHorizIcon} ></IconOptions>
 
         <Button variant='outlined' fullWidth>Twee</Button>
 
