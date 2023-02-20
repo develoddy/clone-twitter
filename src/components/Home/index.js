@@ -15,6 +15,9 @@ export const Home = () => {
 
       {/* Posts */}
       <Posts></Posts>
+      <Posts></Posts>
+      <Posts></Posts>
+      <Posts></Posts>
     </Container>
   )
 }

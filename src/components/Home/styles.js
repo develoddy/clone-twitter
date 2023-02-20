@@ -152,4 +152,30 @@ export const Images = styled.img`
     width: 100%;
     min-height: 300px;
 `
-export const PostFooter = styled.div``
+export const PostFooter = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #5b7083;
+    transition: all 100ms ease-in;
+
+    > .MuiSvgIcon-root: hover: nth-child(1) {
+        fill: #1da1f2;
+        cursor: pointer;
+    }
+
+    > .MuiSvgIcon-root: hover: nth-child(2) {
+        fill: #17bf63;
+        cursor: pointer;
+    }
+
+    > .MuiSvgIcon-root: hover: nth-child(3) {
+        fill: #e02452;
+        cursor: pointer;
+    }
+
+    > .MuiSvgIcon-root: hover: nth-child(4) {
+        fill: #1da1f2;
+        cursor: pointer;
+    }
+`
