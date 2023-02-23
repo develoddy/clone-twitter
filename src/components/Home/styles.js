@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 export const Container = styled.div`
     flex: 0.5;
@@ -38,6 +38,18 @@ export const Tweetbox = styled.div`
 export const Form = styled.form`
     display: flex;
     flex-direction: column;
+`
+
+export const File = styled.input`
+    max-width: 35px;
+    position: absolute;
+    z-index: 10;
+    padding-top: 10px;
+    opacity: 0;
+
+    ${props => props.primary && css`
+        margin-left: 55px;
+    ` }
 `
 
 export const Div = styled.div`
@@ -101,7 +113,7 @@ export const DivBox = styled.div`
         cursor: pointer;
 
         &:nth-child(3) {
-            border: 1px solid red;
+            border: 1px solid var(--twitterColor);
         }
     }
 `
